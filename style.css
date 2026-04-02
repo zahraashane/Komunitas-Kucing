@@ -1,0 +1,79 @@
+body {
+  background-color: #fdfae1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.judul {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.img img {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 600px;
+  border: 5px solid #ffa500;
+  border-radius: 15px;
+}
+
+.tombol {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.text p {
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 50px;
+  max-width: 600px;
+  margin: 0;
+}
+
+.text p.p1 {
+  color: #d9534f;
+  padding: 10px;
+}
+
+.text p.p2 {
+  color: #0000ff;
+  padding: 10px;
+}
+
+.text p.p3 {
+  color: #333;
+  padding: 10px;
+}
+
+.text p.p4 {
+  color: #ac1db9;
+  white-space: pre-line;
+  padding: 10px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+.imgdesign {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.juduldesign {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
